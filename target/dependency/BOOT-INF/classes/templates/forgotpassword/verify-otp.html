@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: Layout(~{::section})}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="container mx-auto mt-3" style="text-align: center;">
+            <div th:if="${message!=null}" class="container">
+                <div class="alert alert-success mt-3" role="alert">
+                    <span th:text="${message}"></span>
+                </div>
+                <th:remove attribute="attribute_name" />
+                </div>
+                      
+              <div class="card">
+                <div class="card-title">
+                    Verify OTP
+                </div>
+                <div class="card-body text-center">
+                    <form action="" th:action="@{/verify-otp}" method="post">
+                        <div class="mb-5">
+                            <input type="text" class="form-control" name="otp" placeholder="Enter OTP here" required>
+                            </div>
+                            <div class="mb-5">
+                       <button type="submit" style="margin-left: 8px; border: solid; " class="btn btn-primary">Verify OTP</button>
+                       </div>
+                    </form>
+                </div>
+            </div>
+             </div>
+    </section>
+</body>
+</html>

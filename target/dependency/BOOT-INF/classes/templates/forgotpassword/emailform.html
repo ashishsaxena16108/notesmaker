@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: Layout(~{::section})}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="container mx-auto mt-3" style="text-align: center;">
+            <div class="card">
+              <div th:if="${message!=null}" class="container">
+                <div class="alert alert-danger mt-3" role="alert">
+                    <span th:text="${message}"></span>
+                </div>
+                <th:remove attribute="message" />
+                </div>
+                <div class="card-title">
+                    Your registered Email
+                </div>
+                <div class="card-body text-center">
+                    <form action="" th:action="@{/send-otp}" method="post">
+                        <div class="mb-5">
+                            <input type="email" class="form-control" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="mb-5">
+                       <button type="submit" style="margin-left: 8px; border: solid; " class="btn btn-primary">Send OTP</button>
+                       </div>
+                    </form>
+                </div>
+            </div>
+             </div>
+    </section>
+</body>
+</html>
