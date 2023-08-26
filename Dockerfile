@@ -1,4 +1,3 @@
-FROM openjdk:8-jdk-alpine
-ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} notemaker.jar
-ENTRYPOINT ["java","-jar","/notemaker.jar"]
+FROM openjdk:17
+ADD target/notemaker.jar notemaker.jar
+ENTRYPOINT [ "java","-jar","/notemaker.jar" ]
