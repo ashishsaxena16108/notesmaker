@@ -22,9 +22,6 @@ services:
       - spring.mail.properties.mail.smtp.starttls.enable=true
     depends_on:
       - mysqldb
-    
-    volumes:
-      - .m2:/root/.m2
       
   mysqldb:
     image: "mysql:8.0"
