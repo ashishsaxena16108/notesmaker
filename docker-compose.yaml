@@ -1,14 +1,25 @@
 version: "3.7"
 services:
-  api_service:
-    build: .
+  note_service:
+    build: ./notesmaker
     restart: always
     ports:
       - 8080:8080
     networks:
       - notemaker-net
     environment:
-      - spring.datasource.url=jdbc:mysql://mysqldb:3306/basics?allowPublicKeyRetrieval=true    
+      - spring.datasource.url=jdbc:mysql://mysqldb:3306/notemaker?createDatabaseIfNotExist=true
+      - spring.datasource.username=root
+      - spring.datasource.password=nitai    
+      - spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+      - spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+      - spring.jpa.hibernate.ddl-auto=update
+      - spring.mail.host=smtp.gmail.com
+      - spring.mail.port=587
+      - spring.mail.username=notesmaker916@gmail.com
+      - spring.mail.password=ykseopfxlptuxffx
+      - spring.mail.properties.mail.smtp.auth=true
+      - spring.mail.properties.mail.smtp.starttls.enable=true
     depends_on:
       - mysqldb
     
@@ -17,13 +28,12 @@ services:
       
   mysqldb:
     image: "mysql:8.0"
-    restart: always
     ports:
       - 3306:3306
     networks:
       - notemaker-net  
     environment:
-      MYSQL_DATABASE: basics
+      MYSQL_DATABASE: notemaker
       MYSQL_USER: root
       MYSQL_PASSWORD: nitai
       MYSQL_ROOT_PASSWORD: nitai
