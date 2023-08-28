@@ -38,4 +38,4 @@ services:
       MYSQL_PASSWORD: nitai
       MYSQL_ROOT_PASSWORD: nitai
 networks:
-  notemaker-net:
+  notemaker-net
