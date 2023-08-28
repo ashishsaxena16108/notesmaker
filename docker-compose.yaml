@@ -6,7 +6,7 @@ services:
     ports:
       - 8080:8080
     networks:
-      - notemaker-net:
+      - notemaker-net
     environment:
       - spring.datasource.url=jdbc:mysql://mysqldb:3306/notemaker?createDatabaseIfNotExist=true
       - spring.datasource.username=root
@@ -28,7 +28,7 @@ services:
     ports:
       - 3306:3306
     networks:
-      - notemaker-net:  
+      - notemaker-net  
     environment:
       MYSQL_DATABASE: notemaker
       MYSQL_USER: root
