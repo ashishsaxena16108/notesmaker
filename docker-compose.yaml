@@ -30,9 +30,6 @@ services:
     networks:
       - notemaker-net  
     environment:
-      MYSQL_DATABASE: notemaker
-      MYSQL_USER: root
-      MYSQL_PASSWORD: nitai
       MYSQL_ROOT_PASSWORD: nitai
 networks:
   notemaker-net:
