@@ -1,4 +1,4 @@
-FROM mysql:8.0.28
+FROM mysql:8.0.28 AS helper
 ENV MYSQL_ROOT_PASSWORD=nitai
 ENV MYSQL_DATABASE=notemaker
 EXPOSE 3306
