@@ -1,7 +1,0 @@
-FROM openjdk:17-jdk-alpine
-
-RUN mkdir /app
-
-COPY target/*.jar /notemaker/notemaker.jar
-
-ENTRYPOINT ["java","-jar","/notemaker/notemaker.jar"]
