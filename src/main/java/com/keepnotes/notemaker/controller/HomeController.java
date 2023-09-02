@@ -37,7 +37,7 @@ public class HomeController {
         user.setImage("pngprofile.jpg");
         User result= this.userRepository.save(user);
         m.addAttribute("user",result);
-        return "signin";
+        return "redirect:/signin";
     }
     @GetMapping("/signin")
     public String signin(Model model){
