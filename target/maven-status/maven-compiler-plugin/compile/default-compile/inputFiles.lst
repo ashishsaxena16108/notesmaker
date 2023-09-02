@@ -1,13 +1,13 @@
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\entities\Notes.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\NotemakerApplication.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\dao\NotesRepository.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\dao\UserRepository.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\helper\EmailService.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\controller\ForgotController.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\controller\UserController.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\helper\Message.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\controller\HomeController.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\entities\User.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\config\Configure.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\config\NoteService.java
-C:\Users\Akash Saxena\SpringBootProjects\notemaker\src\main\java\com\keepnotes\notemaker\config\NoteUserDetails.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/dao/UserRepository.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/helper/Message.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/entities/User.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/helper/EmailService.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/controller/ForgotController.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/NotemakerApplication.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/config/NoteService.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/config/Configure.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/entities/Notes.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/controller/UserController.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/config/NoteUserDetails.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/dao/NotesRepository.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/controller/HomeController.java
