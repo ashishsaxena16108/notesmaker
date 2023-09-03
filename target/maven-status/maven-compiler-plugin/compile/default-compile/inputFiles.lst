@@ -9,5 +9,5 @@
 /workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/entities/Notes.java
 /workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/controller/UserController.java
 /workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/config/NoteUserDetails.java
-/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/dao/NotesRepository.java
 /workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/controller/HomeController.java
+/workspaces/notesmaker/src/main/java/com/keepnotes/notemaker/dao/NotesRepository.java
