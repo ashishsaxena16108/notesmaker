@@ -15,7 +15,7 @@ import jakarta.persistence.OneToMany;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int    user_id;
+    private int user_id;
     private String name;
     private String email;
     private String password;
